@@ -1,0 +1,45 @@
+#Demo
+    margin: 70px
+    .box
+        width: 150px
+        height: 80px
+        border-radius: 7%
+        background-color: rgba(136,99,123,255)
+        transition: 2s
+        .minibox
+            display: flex
+            align-items: center
+            justify-content: center
+            .btn
+                h5
+                    color: white
+    &:hover
+        .box
+            border: 5px solid rgba(136,99,123,255)
+            background-color: rgba(68,65,82,255)
+    @media screen and ( max-width: 800px )
+        .box
+            width: 80px
+            height: 40px
+            border-radius: 7%
+            background-color: rgba(116,133,191,255)
+            .minibox
+                display: flex
+                align-items: center
+                justify-content: center
+                .btn
+                    h5
+                        font-size: 18px
+    @media screen and ( max-width:500px )
+        .box
+            width: 40px
+            height: 40px
+            border-radius: 10%
+            background-color: rgba(61,35,50,255)
+            .minibox
+                display: flex
+                align-items: center
+                justify-content: center
+                .btn
+                    h5
+                        font-size: 8px
