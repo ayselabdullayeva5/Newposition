@@ -1,13 +1,27 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+#Box .box {
+  padding: 40px;
+  width: 160px;
+  height: 160px;
+  background-color: rgb(81, 131, 167);
+}
+#Box .box .minibox {
+  padding: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(54, 87, 128);
+}
+#Box .box .minibox h1 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
