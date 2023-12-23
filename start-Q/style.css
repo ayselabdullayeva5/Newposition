@@ -143,4 +143,20 @@ a:hover {
     border-radius: 50%;
     background-color: rgb(195, 197, 134);
   }
+}
+
+#simple {
+  margin: 70px;
+}
+#simple .minibox {
+  margin: 18px;
+  width: 250px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#simple .minibox h3 {
+  font-size: 25px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
