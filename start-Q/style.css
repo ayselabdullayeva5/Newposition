@@ -12,8 +12,8 @@ a:hover {
 
 #Box .box {
   margin: 40, 80px;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,6 +52,10 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+#Demo .box .minibox .btn {
+  width: 150px;
+  height: 80px;
+}
 #Demo .box .minibox .btn h5 {
   color: white;
 }
@@ -71,6 +75,10 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+  #Demo .box .minibox .btn {
+    width: 80px;
+    height: 40px;
+  }
   #Demo .box .minibox .btn h5 {
     font-size: 18px;
   }
@@ -87,7 +95,37 @@ a:hover {
     align-items: center;
     justify-content: center;
   }
+  #Demo .box .minibox .btn {
+    width: 40px;
+    height: 40px;
+  }
   #Demo .box .minibox .btn h5 {
     font-size: 8px;
   }
+}
+
+#BOX .box {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#BOX .box .minibox {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  transition: 2s;
+  background-color: rgb(150, 109, 73);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#BOX .box .minibox h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+#BOX:hover .box .minibox {
+  border-radius: 20%;
 }/*# sourceMappingURL=style.css.map */
