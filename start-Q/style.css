@@ -45,7 +45,6 @@ a:hover {
   height: 80px;
   border-radius: 7%;
   background-color: rgb(136, 99, 123);
-  transition: 2s;
 }
 #Demo .box .minibox {
   display: flex;
@@ -53,13 +52,14 @@ a:hover {
   justify-content: center;
 }
 #Demo .box .minibox .btn {
+  transition: 2s;
   width: 150px;
   height: 80px;
 }
 #Demo .box .minibox .btn h5 {
   color: white;
 }
-#Demo:hover .box {
+#Demo .box .minibox .btn:hover {
   border: 5px solid rgb(136, 99, 123);
   background-color: rgb(68, 65, 82);
 }
