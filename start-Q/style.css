@@ -10,6 +10,9 @@ a:hover {
   color: black;
 }
 
+#Box {
+  margin-left: 160px;
+}
 #Box .box {
   margin-top: 35px;
   width: 170px;
