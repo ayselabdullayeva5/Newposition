@@ -64,7 +64,7 @@ a:hover {
   color: white;
 }
 #Demo .box .minibox .btn:hover {
-  border: 5px solid rgb(136, 99, 123);
+  border: 3px solid rgb(136, 99, 123);
   background-color: rgb(68, 65, 82);
 }
 @media screen and (max-width: 800px) {
