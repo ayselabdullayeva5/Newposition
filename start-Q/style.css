@@ -182,4 +182,9 @@ a:hover {
 #simple .minibox h3 {
   font-size: 25px;
   color: white;
+}
+#simple .small {
+  position: absolute;
+  left: 332px;
+  margin-top: auto;
 }/*# sourceMappingURL=style.css.map */
