@@ -10,11 +10,7 @@ a:hover {
   color: black;
 }
 
-#Box {
-  margin-left: 160px;
-}
 #Box .box {
-  margin-top: 35px;
   width: 170px;
   height: 170px;
   display: flex;
@@ -41,19 +37,14 @@ a:hover {
 }
 
 #Demo {
-  margin-left: 180px;
+  display: flex;
+  margin: 80px;
 }
 #Demo .box {
-  margin: 80px;
   width: 150px;
   height: 80px;
   border-radius: 7%;
   background-color: rgb(136, 99, 123);
-}
-#Demo .box .minibox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #Demo .box .minibox .btn {
   transition: 2s;
@@ -108,14 +99,7 @@ a:hover {
   }
 }
 
-#BOX .box {
-  width: 170px;
-  height: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#BOX .box .minibox {
+#BOX .minibox {
   width: 170px;
   height: 170px;
   border-radius: 50%;
@@ -125,23 +109,19 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-#BOX .box .minibox h1 {
+#BOX .minibox h1 {
   font-weight: bold;
   font-size: 20px;
   color: white;
 }
-#BOX .box .minibox:hover {
+#BOX .minibox:hover {
   border-radius: 20%;
 }
 @media screen and (max-width: 800px) {
-  #BOX .box {
-    width: 40px;
-    height: 40px;
+  #BOX .minibox {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  #BOX .box .minibox {
     width: 40px;
     height: 40px;
     border-radius: 50%;
