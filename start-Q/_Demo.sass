@@ -1,50 +1,54 @@
 #Demo
-    display: flex
-    
-    margin: 80px
-    .box
-        width: 150px
-        height: 80px
-        border-radius: 7%
-        background-color: rgba(136,99,123,255)
-        .minibox
-            .btn
-                transition: 2s
-                width: 150px
-                height: 80px
-                h5
-                    color: white
-                &:hover
-                    border: 3px solid rgba(136,99,123,255)
-                    background-color: rgba(68,65,82,255)
+    margin: 90px
+    ul
+        display: flex
+        justify-content: space-around
+        li
+            .box
+                .minibox
+                    .btn
+                        transition: 2s
+                        width: 160px
+                        height: 80px
+                        border-radius: 7%
+                        background-color: rgba(136,99,123,255)
+                        h5
+                            color: white
+                        &:hover
+                            border: 3px solid rgba(136,99,123,255)
+                            background-color: rgba(68,65,82,255)
     @media screen and ( max-width: 800px )
-        .box
-            width: 80px
-            height: 40px
-            border-radius: 7%
-            background-color: rgba(116,133,191,255)
-            .minibox
-                display: flex
-                align-items: center
-                justify-content: center
-                .btn
-                    width: 80px
-                    height: 40px
-                    h5
-                        font-size: 18px
+        ul
+            li
+                .box
+                    .minibox
+                        .btn
+                            width: 80px
+                            height: 40px
+                            border-radius: 7%
+                            background-color: rgba(116,133,191,255)
+    @media screen and ( max-width:700px )
+        ul
+            display: inline
+            li
+                .box
+                    .minibox
+                        display: flex
+                        align-items: center
+                        justify-content: center       
     @media screen and ( max-width:500px )
-        .box
-            width: 40px
-            height: 40px
-            border-radius: 10%
-            background-color: rgba(61,35,50,255)
-            .minibox
-                display: flex
-                align-items: center
-                justify-content: center
-                .btn
-                    width: 40px
-                    height: 40px
-                    h5
-                        font-size: 8px
-                        
+        ul
+            display: inline
+            li
+                .box
+                    .minibox
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        .btn
+                            width: 40px
+                            height: 40px
+                            border-radius: 10%
+                            background-color: rgba(61,35,50,255)
+                            h5
+                                font-size: 8px

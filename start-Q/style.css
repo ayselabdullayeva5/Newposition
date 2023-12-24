@@ -54,64 +54,60 @@ a:hover {
 }
 
 #Demo {
-  display: flex;
-  margin: 80px;
+  margin: 90px;
 }
-#Demo .box {
-  width: 150px;
+#Demo ul {
+  display: flex;
+  justify-content: space-around;
+}
+#Demo ul li .box .minibox .btn {
+  transition: 2s;
+  width: 160px;
   height: 80px;
   border-radius: 7%;
   background-color: rgb(136, 99, 123);
 }
-#Demo .box .minibox .btn {
-  transition: 2s;
-  width: 150px;
-  height: 80px;
-}
-#Demo .box .minibox .btn h5 {
+#Demo ul li .box .minibox .btn h5 {
   color: white;
 }
-#Demo .box .minibox .btn:hover {
+#Demo ul li .box .minibox .btn:hover {
   border: 3px solid rgb(136, 99, 123);
   background-color: rgb(68, 65, 82);
 }
 @media screen and (max-width: 800px) {
-  #Demo .box {
+  #Demo ul li .box .minibox .btn {
     width: 80px;
     height: 40px;
     border-radius: 7%;
     background-color: rgb(116, 133, 191);
   }
-  #Demo .box .minibox {
+}
+@media screen and (max-width: 700px) {
+  #Demo ul {
+    display: inline;
+  }
+  #Demo ul li .box .minibox {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  #Demo .box .minibox .btn {
-    width: 80px;
-    height: 40px;
-  }
-  #Demo .box .minibox .btn h5 {
-    font-size: 18px;
-  }
 }
 @media screen and (max-width: 500px) {
-  #Demo .box {
+  #Demo ul {
+    display: inline;
+  }
+  #Demo ul li .box .minibox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #Demo ul li .box .minibox .btn {
     width: 40px;
     height: 40px;
     border-radius: 10%;
     background-color: rgb(61, 35, 50);
   }
-  #Demo .box .minibox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #Demo .box .minibox .btn {
-    width: 40px;
-    height: 40px;
-  }
-  #Demo .box .minibox .btn h5 {
+  #Demo ul li .box .minibox .btn h5 {
     font-size: 8px;
   }
 }
